@@ -1,0 +1,41 @@
+# depslib dependency file v1.0
+1538235229 source:/home/alumno/Escritorio/ClaseRepaso6/main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"estructuraGenenrica.h"
+	"menuSystem.h"
+
+1538237946 source:/home/alumno/Escritorio/ClaseRepaso6/estructuraGenenrica.c
+	<stdio.h>
+	<stdio_ext.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"estructuraGenenrica.h"
+	"menuSystem.h"
+	"texto.h"
+
+1538236824 /home/alumno/Escritorio/ClaseRepaso6/estructuraGenenrica.h
+
+1538234762 source:/home/alumno/Escritorio/ClaseRepaso6/menuSystem.c
+	<stdio.h>
+	<string.h>
+	<stdio_ext.h>
+	<stdlib.h>
+	<stdarg.h>
+	<ctype.h>
+	"menuSystem.h"
+
+1538234783 /home/alumno/Escritorio/ClaseRepaso6/menuSystem.h
+
+1538237802 source:/home/alumno/Escritorio/ClaseRepaso6/texto.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdio_ext.h>
+	<ctype.h>
+	"texto.h"
+
+1536670390 /home/alumno/Escritorio/ClaseRepaso6/texto.h
+
