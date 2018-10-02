@@ -6,9 +6,6 @@
 #include "estructuraGenenrica.h"
 #include "menuSystem.h"
 #include "texto.h"
-#define OCUPADO 0
-#define DESHABILITADO -1
-#define LIBRE 1
 
 
 int eGen_buscarPorId(eGenerica listado[],int limite, int id)

@@ -39,3 +39,43 @@
 
 1536670390 /home/alumno/Escritorio/ClaseRepaso6/texto.h
 
+1538431159 source:c:\users\relinoylli\desktop\proyectosfacu\amb\claserepaso6\estructuragenenrica.c
+	<stdio.h>
+	<stdio_ext.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"estructuraGenenrica.h"
+	"menuSystem.h"
+	"texto.h"
+
+1538434543 c:\users\relinoylli\desktop\proyectosfacu\amb\claserepaso6\estructuragenenrica.h
+
+1538433280 c:\users\relinoylli\desktop\proyectosfacu\amb\claserepaso6\menusystem.h
+
+1538431159 c:\users\relinoylli\desktop\proyectosfacu\amb\claserepaso6\texto.h
+
+1538431159 source:c:\users\relinoylli\desktop\proyectosfacu\amb\claserepaso6\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"estructuraGenenrica.h"
+	"menuSystem.h"
+
+1538431159 source:c:\users\relinoylli\desktop\proyectosfacu\amb\claserepaso6\menusystem.c
+	<stdio.h>
+	<string.h>
+	<stdio_ext.h>
+	<stdlib.h>
+	<stdarg.h>
+	<ctype.h>
+	"menuSystem.h"
+
+1538431159 source:c:\users\relinoylli\desktop\proyectosfacu\amb\claserepaso6\texto.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdio_ext.h>
+	<ctype.h>
+	"texto.h"
+
