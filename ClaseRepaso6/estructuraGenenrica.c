@@ -86,7 +86,6 @@ int eGen_buscarLugarLibre(eGenerica listado[],int limite)
 int eGen_alta(eGenerica  listado[],int limite)
 {
     int retorno = -1;
-    char nombre[50];
     int id;
     int indice;
 
@@ -206,7 +205,7 @@ int eGen_modificacion(eGenerica  listado[],int limite, char mensaje[])
 int eGen_Mostrar(eGenerica estructura, int isAlone)
 {
     int retorno = -1;
-    if(isAlone)
+    if(isAlone == 0)
     {
         printf("%15s %10s\n", "NOMBRE", "ID");
     }
@@ -229,12 +228,11 @@ int eGen_MostrarListado(eGenerica listado[], int limite)
     if(limite > 0 && listado != NULL)
     {
         retorno = -2;
-        printf("%15s %10s\n", "NOMBRE", "ID");
         for(indice = 0; indice < limite; indice++)
         {
             if(listado[indice].estado == OCUPADO)
             {
-                eGen_Mostrar(listado[indice], 0);
+                eGen_Mostrar(listado[indice], indice);
             }
         }
         retorno = -3;
